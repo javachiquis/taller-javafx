@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-mar-2016, 12:39:59
+    Author     : ener2
+*/
+
+.toggle-button1{
+    -fx-base: lightgreen;   
+}
+ 
+.toggle-button2{
+    -fx-base: lightblue;  
+}
+ 
+.toggle-button3{
+    -fx-base: salmon;   
+}
+
+
+/* Estilos PaginationControl*/
+
+.pagination {
+    -fx-border-color:  #0E5D79;
+}
+ 
+.pagination .page {
+    -fx-background-color: #DDF1F8;
+}
+ 
+.pagination .pagination-control {
+    -fx-background-color: #C8C6C6;    
+}
+ 
+.pagination .pagination-control .bullet-button {
+    -fx-background-color: transparent, #DDF1F8, #0E5D79, white, white;
+}
+ 
+.pagination .pagination-control .bullet-button:selected {   
+    -fx-background-color: transparent, #DDF1F8, #0E5D79, white, #0E5D79;
+}
+ 
+.pagination .pagination-control .left-arrow, .right-arrow{
+    -fx-background-color: #DDF1F8, #0E5D79;
+}
+
+
+/* Estilos ColorPicker */
+.color-picker {
+    -fx-background-color: #669999; 
+    -fx-background-radius: 0 15 15 0; 
+}
+.color-picker .color-picker-label .text {
+    -fx-fill: #ccffcc;
+}
+
+.tool-bar:horizontal {
+    -fx-background-color: #336666;
+}
+ 
+.combo-box-base  {
+    -fx-background-color: null;  
+}
+ 
+.combo-box-base:hover  {
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}
